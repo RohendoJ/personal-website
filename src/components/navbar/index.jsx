@@ -74,8 +74,8 @@ const Navbar = (props) => {
         </div>
       </nav>
       {open ? (
-        <div className="w-screen h-screen bg-[#F9FDFF] absolute top-0 translate-x-0 z-10 delay-150 duration-300 ease-in-out flex flex-col justify-center items-center lg:-translate-y-[100vw]">
-          <ul className="flex flex-col gap-10 text-center text-[1.5rem]">
+        <div className="w-screen h-[120vh] bg-[#F9FDFF] absolute top-0 translate-y-0 z-10 delay-150 duration-300 ease-in-out flex flex-col justify-center items-center lg:-translate-y-[120vw]">
+          <ul className="flex flex-col gap-10 text-center text-[1.5rem] mb-[20vh]">
             <Link to="/" onClick={closeNavbar}>
               Home
             </Link>
