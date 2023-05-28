@@ -4,6 +4,12 @@ import profile from "../../assets/img/profile.png";
 const Navbar = lazy(() => import("../../components/navbar"));
 
 const Home = () => {
+  const downloadLink = () => {
+    window.open(
+      "https://drive.google.com/file/d/12L4Z0Or-NbwzOKs3bnsPZyCMPI70Xvy_/view",
+      "_blank"
+    );
+  };
   return (
     <div className="overflow-x-hidden">
       <Navbar styleHome="text-[#0A9EF1]" />
@@ -29,7 +35,10 @@ const Home = () => {
             </p>
           </div>
           <div className="flex flex-col justify-center items-center mt-[2vh] md:flex-row md:gap-[2vw] lg:justify-start lg:ml-[10vw] xl:gap-[1.5vw]">
-            <button className="bg-[#4079E8] text-white px-[2vw] py-[1vh] rounded-md hover:bg-[#bdd1fa] hover:text-blue-700">
+            <button
+              className="bg-[#4079E8] text-white px-[2vw] py-[1vh] rounded-md hover:bg-[#bdd1fa] hover:text-blue-700"
+              onClick={downloadLink}
+            >
               Download CV
             </button>
             <div className="flex gap-[2vw] mt-[3vh] md:mt-0 xl:gap-[1vw]">
