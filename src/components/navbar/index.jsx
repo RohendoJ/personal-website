@@ -76,32 +76,18 @@ const Navbar = (props) => {
       {open ? (
         <div className="w-screen h-[120vh] bg-[#F9FDFF] absolute top-0 translate-y-0 z-10 delay-150 duration-300 ease-in-out flex flex-col justify-center items-center lg:-translate-y-[120vw]">
           <ul className="flex flex-col gap-10 text-center text-[1.5rem] mb-[20vh]">
-            <Link to="/">
-              Home
-            </Link>
-            <Link to="/about">
-              About
-            </Link>
-            <Link to="/projects">
-              Projects
-            </Link>
-            <a href="mailto:rohendoj3134@gmail.com">
-              Let's Chat
-            </a>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/projects">Projects</Link>
+            <a href="mailto:rohendoj3134@gmail.com">Let's Chat</a>
           </ul>
         </div>
       ) : (
         <div className="w-screen h-screen bg-[#F9FDFF] absolute top-0 -translate-y-[100vh] z-10 delay-150 duration-300 ease-in-out flex flex-col justify-center items-center">
           <ul className="flex flex-col gap-10 text-center text-[1.5rem]">
-            <Link to="/">
-              Home
-            </Link>
-            <Link to="/about">
-              About
-            </Link>
-            <Link to="/projects"
-              Projects
-            </Link>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/projects">Projects</Link>
             <a
               href="mailto:rohendoj3134@gmail.com"
               target="_blank"
