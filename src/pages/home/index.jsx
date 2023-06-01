@@ -6,7 +6,7 @@ const Navbar = lazy(() => import("../../components/navbar"));
 const Home = () => {
   const downloadLink = () => {
     window.open(
-      "https://drive.google.com/file/d/12L4Z0Or-NbwzOKs3bnsPZyCMPI70Xvy_/view",
+      "https://drive.google.com/file/d/1Zzajd27ceLfnBsdKTVYHGmnZYIfm2g3f/view?usp=sharing",
       "_blank"
     );
   };
